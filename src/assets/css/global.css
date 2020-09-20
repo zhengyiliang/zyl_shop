@@ -1,0 +1,56 @@
+/* 全局样式表 */
+html, body, #app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    min-width: 1366px;
+}
+
+.el-container {
+    overflow: hidden;
+}
+
+.el-breadcrumb {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.el-card {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15)!important;
+}
+
+.el-table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.mgtb-20 {
+    margin: 20px 0;
+}
+.mgtp-20 {
+    margin-top: 20px;
+}
+.mgtblr-10 {
+    margin: 10px;
+}
+.tc {
+    text-align: center;
+}
+/* 级联选择器样式 */
+.cascader-height .el-cascader-panel {
+    height: 320px;
+}
+.cascader-height .el-scrollbar__wrap {
+    overflow-x: hidden;
+    margin-bottom: 0 !important;
+}
+.el-step__title {
+    font-size: 14px;
+}
+
+/* 富文本编辑器 */
+.ql-editor {
+    min-height: 320px;
+}
